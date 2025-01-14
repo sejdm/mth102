@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>MTH406 Theory of Computation</title>
-    <link href="http://sejdm.github.io/mth406/atom.xml" rel="self" />
-    <link href="http://sejdm.github.io/mth406" />
-    <id>http://sejdm.github.io/mth406/atom.xml</id>
+    <title>MTH102 Probability and Statistics</title>
+    <link href="http://sejdm.github.io/mth102/atom.xml" rel="self" />
+    <link href="http://sejdm.github.io/mth102" />
+    <id>http://sejdm.github.io/mth102/atom.xml</id>
     <author>
         <name>Shane D'Mello</name>
         <email>shane@iisermohali.ac.in</email>
     </author>
-    <updated>Unknown</updated>
-    
+    <updated>2025-01-14T17:15:40+5:30</updated>
+    <entry>
+    <title>Exercise sheet 1</title>
+    <link href="http://sejdm.github.io/mth102/assignments/2025-01-13-exercise01.html" />
+    <id>http://sejdm.github.io/mth102/assignments/2025-01-13-exercise01.html</id>
+    <published>2025-01-13T00:00:00Z</published>
+    <updated>2025-01-14T17:15:40+5:30</updated>
+    <summary type="html"><![CDATA[Exercise sheet 1 has been posted.]]></summary>
+</entry>
+
 </feed>

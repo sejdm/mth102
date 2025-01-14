@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>MTH406 Theory of Computation</title>
-        <link>http://sejdm.github.io/mth406</link>
+        <title>MTH102 Probability and Statistics</title>
+        <link>http://sejdm.github.io/mth102</link>
         <description><![CDATA[Get exercises and announcements]]></description>
-        <atom:link href="http://sejdm.github.io/mth406/announce/rss.xml" rel="self"
+        <atom:link href="http://sejdm.github.io/mth102/announce/rss.xml" rel="self"
                    type="application/rss+xml" />
         <lastBuildDate>Unknown</lastBuildDate>
         
