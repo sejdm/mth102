@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>MTH406 Theory of Computation</title>
+    <link href="http://sejdm.github.io/mth406/atom.xml" rel="self" />
+    <link href="http://sejdm.github.io/mth406" />
+    <id>http://sejdm.github.io/mth406/atom.xml</id>
+    <author>
+        <name>Shane D'Mello</name>
+        <email>shane@iisermohali.ac.in</email>
+    </author>
+    <updated>Unknown</updated>
+    
+</feed>
