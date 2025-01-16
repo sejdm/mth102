@@ -44,7 +44,7 @@
 	
 	
       </p>
-<p class="date"><strong>&nbsp;Last modified: 02:21 PM - 16 January, 2025 </strong></p>
+<p class="date"><strong>&nbsp;Last modified: 06:35 PM - 16 January, 2025 </strong></p>
 	  
 	  <a href="../assignments/pdfs/2025-01-13-exercise01.pdf">PDF version</a>
 	  
@@ -71,7 +71,15 @@
 <li><p>What is the probability of getting <span class="math inline">\(k\)</span> tails?</p></li>
 <li><p>Use this to show that <span class="math inline">\({}^nC_0 + {}^nC_1 + {}^nC_2 +\cdots + {}^nC_n = 2^n\)</span></p></li>
 <li><p>If <span class="math inline">\(n\)</span> is even, what is the probability of getting heads in exactly half the number tosses?</p></li>
-<li><p>If <span class="math inline">\(n\)</span> is even, use the previous part to show that <span class="math inline">\({}^nC_0 + {}^nC_1 + {}^nC_2 +\cdots + {}^{n}C_{n/2} = 2^{n-1}\)</span></p></li>
+<li><p>If <span class="math inline">\(n\)</span> is odd, use the previous part to show that <span class="math inline">\({}^nC_0 + {}^nC_1 + {}^nC_2 +\cdots + {}^{n}C_{\lfloor n/2 \rfloor} = 2^{n-1}\)</span></p></li>
+</ol></li>
+<li><p>Recall that we defined the “conditional probability” <span class="math inline">\(P(A|B)\)</span> which denotes “probability of A given that we know that B has occurred” by <span class="math inline">\(P(A|B) = \frac{P(A \cap B)}{P(B)}\)</span>. If two events are independent, it means that the probability of <span class="math inline">\(A\)</span> does not depend on <span class="math inline">\(B\)</span>, i.e. <span class="math inline">\(P(A|B) = P(A)\)</span>.</p>
+<ol>
+<li><p>Show that if the <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are independent then <span class="math inline">\(P(A\cap B) = P(A) P(B)\)</span></p></li>
+<li><p>Show that if <span class="math inline">\(P(A|B) = P(A)\)</span>, then <span class="math inline">\(P(B|A) = P(B)\)</span>.</p></li>
+<li><p>If a coin is tossed twice, let <span class="math inline">\(A_1\)</span> denote the event of getting a head in the first toss, and <span class="math inline">\(A_2\)</span> denote the event of getting a head in the second toss. We may assume that they are independent events. Then use the above discussions to show that the probability of getting a head in both tosses is 1/4.</p></li>
+<li><p>If a coin is tossed <span class="math inline">\(n\)</span> times, use the above observations to compute the probability of getting all heads.</p></li>
+<li><p>Derive a formula for <span class="math inline">\(P(A|B)\)</span> in terms of <span class="math inline">\(P(B|A)\)</span>, <span class="math inline">\(P(A)\)</span>, and <span class="math inline">\(P(B)\)</span>. (<em>Hint:</em> eliminate the <span class="math inline">\(P(A\cap B)\)</span> in the definitions of the conditional probabilities).</p></li>
 </ol></li>
 </ol>
     </section>
