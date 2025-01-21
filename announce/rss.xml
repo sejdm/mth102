@@ -7,7 +7,16 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth102/announce/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Unknown</lastBuildDate>
-        
+        <lastBuildDate>2025-01-21T19:55:00+5:30</lastBuildDate>
+        <item>
+    <title>2025-01-21-quiz</title>
+    <link>http://sejdm.github.io/mth102/announcements/2025-01-21-quiz.html</link>
+    <description><![CDATA[<div class="announcement"><p>There will be a <strong>quiz</strong> in your tutorial room on <strong>Thurdsay</strong>, the 23rd of January, 2025</p></div> <br /><span class="date">Last modified: 07:55 PM - 21 January, 2025 </span>
+]]></description>
+    <pubDate>Tue, 21 Jan 2025 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth102/announcements/2025-01-21-quiz.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+
     </channel>
 </rss>
