@@ -7,8 +7,16 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth102/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2025-02-26T15:39:44+5:30</lastBuildDate>
+        <lastBuildDate>2025-02-27T12:35:01+5:30</lastBuildDate>
         <item>
+    <title>Exercise sheet 5</title>
+    <link>http://sejdm.github.io/mth102/assignments/2025-02-27-exercise05.html</link>
+    <description><![CDATA[Exercise sheet 5 has been posted.]]></description>
+    <pubDate>Thu, 27 Feb 2025 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth102/assignments/2025-02-27-exercise05.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Announcement</title>
     <link>http://sejdm.github.io/mth102/announcements/2025-02-26-makeup.html</link>
     <description><![CDATA[<div class="announcement"><p>There will be a <strong>makeup lecture</strong> at <strong>3pm</strong> in LH6 on <strong>Thursday</strong>, the 26th of February.</p></div> <br /><span class="date">Last modified: 03:39 PM - 26 February, 2025 </span>
