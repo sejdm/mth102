@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Expectation of a function of a random variable - MTH102</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/my.css">
+<link rel="stylesheet" href="../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 102" href="../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../index.html" id="titlelink">Probability and Statistics (MTH 102)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../index.html">Course information</a>
+	  
+          <a href="../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../posts.html">Comments</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+
+
+    <section id="pagecontent">
+        <article>
+<header>
+<h1>Expectation of a function of a random variable</h1>
+<p class="date"><strong> 5 March, 2025 (Wednesday)</strong></p>
+</header>
+<section>
+      <p>
+	
+	
+      </p>
+
+<p class="date"><strong>&nbsp;Last modified: 05:53 PM -  5 March, 2025 </strong></p>
+	  
+	  <a href="../posts/pdfs/2025-03-05-expectation-of-function.pdf">PDF version</a>
+	  
+<p>There is still some confusion about why <span class="math inline">\(E[g(X)] = \sum g(x_i) p(x_i)\)</span> and not <span class="math inline">\(E[g(X)] = \sum g(x_i) p(g(x_i))\)</span>. I think the indices in the proof may be an additional roadblock so let us try and see it with an explicit example that is typical of what happens in general.</p>
+<p>Let us consider a random variable <span class="math inline">\(X\)</span> that can take the values <span class="math inline">\(\{-2, -1, 1, 2\}\)</span>. Let us assume that the probability mass function <span class="math inline">\(p_X(-2) = 0.3\)</span>, <span class="math inline">\(p_X(-1) = 0.1\)</span>, <span class="math inline">\(p_X(1) = 0.2\)</span>, <span class="math inline">\(p_X(2) = 0.4\)</span>. So the expectation, <span class="math inline">\(E[X] = -2 \times 0.3 + -1 \times 0.1 + 1 \times 0.2 + 2 \times 0.4\)</span>. I am using the notation <span class="math inline">\(p_X(a)\)</span> instead of just <span class="math inline">\(p(a)\)</span> for the mass function to avoid confusion with another mass function which we will see shortly.</p>
+<p>Let us now consider the function <span class="math inline">\(g(x) = x^2\)</span>. First, let us be clear about what we mean by <span class="math inline">\(E[g(X)]\)</span>. For that we need to be clear what we mean by the random variable <span class="math inline">\(g(X)\)</span>. Remember that <span class="math inline">\(X\)</span> can take the values <span class="math inline">\(-2, -1, 1, 2\)</span>. So <span class="math inline">\(g(X)= X^2\)</span> can take the possible values 1, or 4 because both <span class="math inline">\((-1)^2\)</span> and <span class="math inline">\(1^2\)</span> are 1, and both <span class="math inline">\((-2)^2\)</span> and <span class="math inline">\(2^2\)</span> are 4.</p>
+<p>Let us denote this new random variable <span class="math inline">\(X^2\)</span> by <span class="math inline">\(Y\)</span>. We are interested in <span class="math inline">\(E[Y]\)</span>. Since our random variable <span class="math inline">\(Y\)</span> can take values <span class="math inline">\(1, 4\)</span>, <span class="math inline">\(E[Y] = 1 \times p_Y(1) + 4 \times p_Y(4)\)</span>. Notice that I am using <span class="math inline">\(p_Y\)</span> instead of <span class="math inline">\(p\)</span> so as not to confuse it with the mass function, <span class="math inline">\(p_X\)</span>, for the random variable <span class="math inline">\(X\)</span>.</p>
+<p>But what does <span class="math inline">\(p_Y(1)\)</span> mean for this random variable? By definition, <span class="math inline">\(p_Y(1) = P\{Y=1\}\)</span>, in other words the probability that <span class="math inline">\(Y\)</span> takes the value 1. But that itself is the probability that <span class="math inline">\(X\)</span> takes the value 1 <em>or</em> -1, i.e. <span class="math inline">\(p_Y(1) = P\{Y = 1\} = P\{X^2 = 1\} = P\{X = 1\} + P\{X=-1\}= 0.1 + 0.2\)</span>.</p>
+<p>Similarly, by definition, <span class="math inline">\(p_Y(4) = P\{Y=4\}\)</span>, in other words the probability that <span class="math inline">\(Y\)</span> takes the value 4. But that itself is the probability that <span class="math inline">\(X\)</span> takes the value 2 <em>or</em> -2, i.e. <span class="math inline">\(P\{X = 2\} + P\{X=-2\}= 0.3 + 0.4\)</span>.</p>
+<p>So the expectation <span class="math inline">\(E[Y] = 1 \times (0.1 + 0.2) + 4 \times (0.3 + 0.4)\)</span>. <span class="math display">\[= 1 \times 0.1 + 1 \times 0.2 + 4 \times 0.3 + 4 \times 0.4\]</span> <span class="math display">\[= 1 \times p(-1) + 1 \times p(1) + 4 \times p(-2) + 4 \times p(2)\]</span></p>
+<p>Now here is the crucial observation! <span class="math inline">\(1 = 1^2\)</span>, but 1 is also <span class="math inline">\((-1)^2\)</span>. Similarly, <span class="math inline">\(4 = 2^2\)</span> but 4 is also <span class="math inline">\((-2)^2\)</span>. So, let us replace one 1 with <span class="math inline">\(1^2\)</span> but the other with <span class="math inline">\((-1)^2\)</span> (and do the same for 4) just to get a better looking expression! <span class="math display">\[= 1^2 \times p_X(-1) + (-1)^2 \times p_X(1) + 2^2 \times p_X(-2) + (-2)^2 \times p_X(2)\]</span>.</p>
+<p>As we can see in this example, <span class="math inline">\(E[g(X)]=\sum g(x_i) p(x_i)\)</span></p>
+</section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../assignments/2025-03-02-exercise06.html">Exercise sheet 6</a>
+	   /
+	  <a href="../assignments/pdfs/2025-03-02-exercise06.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../assignments/2025-02-27-exercise05.html">Exercise sheet 5</a>
+	   /
+	  <a href="../assignments/pdfs/2025-02-27-exercise05.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+
+    <h2>Recent comments</h2>
+<ul>
+    
+        <li>
+            <a href="../posts/2025-03-05-expectation-of-function.html"><i>Expectation of a function of a random variable</i></a> -  5 March, 2025 (Wednesday)
+	  
+	  (<a href="../posts/pdfs/2025-03-05-expectation-of-function.pdf">PDF file</a>)
+	  
+
+
+        </li>
+    
+</ul>
+
+    <p><a href="../posts.html">All comments&hellip;</a></p>
+
+
+
+
+</section>
+</body>
+</html>
