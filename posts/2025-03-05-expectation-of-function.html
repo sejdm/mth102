@@ -48,7 +48,7 @@
 	
       </p>
 
-<p class="date"><strong>&nbsp;Last modified: 07:57 PM -  5 March, 2025 </strong></p>
+<p class="date"><strong>&nbsp;Last modified: 08:01 PM -  5 March, 2025 </strong></p>
 	  
 	  <a href="../posts/pdfs/2025-03-05-expectation-of-function.pdf">PDF version</a>
 	  
@@ -58,7 +58,7 @@
 <p>Let us denote this new random variable <span class="math inline">\(X^2\)</span> by <span class="math inline">\(Y\)</span>. We are interested in <span class="math inline">\(E[Y]\)</span>. Since our random variable <span class="math inline">\(Y\)</span> can take values <span class="math inline">\(1, 4\)</span>, <span class="math inline">\(E[Y] = 1 \times p_Y(1) + 4 \times p_Y(4)\)</span>. Notice that I am using <span class="math inline">\(p_Y\)</span> instead of <span class="math inline">\(p\)</span> so as not to confuse it with the mass function, <span class="math inline">\(p_X\)</span>, for the random variable <span class="math inline">\(X\)</span>.</p>
 <p>But what does <span class="math inline">\(p_Y(1)\)</span> mean for this random variable? By definition, <span class="math inline">\(p_Y(1) = P\{Y=1\}\)</span>, in other words the probability that <span class="math inline">\(Y\)</span> takes the value 1. But that itself is the probability that <span class="math inline">\(X\)</span> takes the value 1 <em>or</em> -1, i.e. <span class="math inline">\(p_Y(1) = P\{Y = 1\} = P\{X^2 = 1\} = P\{X = 1\} + P\{X=-1\}= 0.1 + 0.2\)</span>.</p>
 <p>Similarly, by definition, <span class="math inline">\(p_Y(4) = P\{Y=4\}\)</span>, in other words the probability that <span class="math inline">\(Y\)</span> takes the value 4. But that itself is the probability that <span class="math inline">\(X\)</span> takes the value 2 <em>or</em> -2, i.e. <span class="math inline">\(P\{X = 2\} + P\{X=-2\}= 0.3 + 0.4\)</span>.</p>
-<p>So the expectation <span class="math inline">\(E[Y] = 1 \times (0.1 + 0.2) + 4 \times (0.3 + 0.4)\)</span>. <span class="math display">\[= 1 \times 0.1 + 1 \times 0.2 + 4 \times 0.3 + 4 \times 0.4\]</span> <span class="math display">\[= 1 \times p(-1) + 1 \times p(1) + 4 \times p(-2) + 4 \times p(2)\]</span></p>
+<p>So the expectation <span class="math inline">\(E[Y] = 1 \times (0.1 + 0.2) + 4 \times (0.3 + 0.4)\)</span>. <span class="math display">\[= 1 \times 0.1 + 1 \times 0.2 + 4 \times 0.3 + 4 \times 0.4\]</span> <span class="math display">\[= 1 \times (p_X(-1) + p_X(1)) + 4 \times (p_X(-2) + p_X(2))\]</span> <span class="math display">\[= 1 \times p_X(-1) + 1 \times p_X(1) + 4 \times p_X(-2) + 4 \times p_X(2)\]</span></p>
 <p><em>Now here is the crucial observation!</em> <span class="math inline">\(1 = 1^2\)</span>, but 1 is also <span class="math inline">\((-1)^2\)</span>. Similarly, <span class="math inline">\(4 = 2^2\)</span> but 4 is also <span class="math inline">\((-2)^2\)</span>. So, let us replace one 1 with <span class="math inline">\(1^2\)</span> but the other with <span class="math inline">\((-1)^2\)</span> (and do the same for 4) just to get a better looking expression! <span class="math display">\[= (-1)^2 \times p_X(-1) + 1^2 \times p_X(1) + (-2)^2 \times p_X(-2) + 2^2 \times p_X(2)\]</span>.</p>
 <p>As we can see in this example, <span class="math inline">\(E[g(X)]=\sum g(x_i) p(x_i)\)</span></p>
 </section>
