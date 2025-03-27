@@ -7,7 +7,7 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth102/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2025-03-27T12:16:45+5:30</lastBuildDate>
+        <lastBuildDate>2025-03-27T13:47:31+5:30</lastBuildDate>
         <item>
     <title>Exercise sheet 7</title>
     <link>http://sejdm.github.io/mth102/assignments/2025-03-25-exercises07.html</link>
