@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Markov's inequality - MTH102</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/my.css">
+<link rel="stylesheet" href="../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 102" href="../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../index.html" id="titlelink">Probability and Statistics (MTH 102)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../index.html">Course information</a>
+	  
+          <a href="../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../posts.html">Comments</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+
+
+    <section id="pagecontent">
+        <article>
+<header>
+<h1>Markov's inequality</h1>
+<p class="date"><strong>24 March, 2025 (Monday)</strong></p>
+</header>
+<section>
+      <p>
+	
+	<a href="../posts/2025-03-05-expectation-of-function.html" class="prev"><<</a>
+	
+	
+      </p>
+
+<p class="date"><strong>&nbsp;Last modified: 11:53 AM - 25 March, 2025 </strong></p>
+	  
+	  <a href="../posts/pdfs/2025-03-24-Markov.pdf">PDF version</a>
+	  
+<p>Markov’s inequality belongs to a class of theorems in probability that tries to extract relations between quantities that are true in general, without knowing the precise distribution.</p>
+<p>Markov’s inequality may feel mysterious if you are trying to find some intuitive interpretation of its statement or some direct real world application. But it was born out of observing the that from the form of the definition of expectation, one could squeeze out a useful relation with a certain probability that was true for <em>any random variable</em>, without knowing its precise probability distribution (well, the only assumption we needed was that it was never negative, which is a mild one)</p>
+<p>Let us see what we can extract from the definition of an expectation. <span class="math display">\[E[X] = x_1 p(x_1) + x_2 p(x_2) + \cdots + x_n p(x_n)\]</span>. Notice that expectation involves probabilities of various values of <span class="math inline">\(X\)</span>, namely <span class="math inline">\(p(x_i)\)</span>. Also note that <span class="math inline">\(\sum p(x_i)\)</span> of all those <span class="math inline">\(x_i\)</span> which satisfy a criterion is precisely the probability that <span class="math inline">\(X\)</span> satisfies that condition. For instance, the probability <span class="math inline">\(P\{a \leq X \leq b\}\)</span> is exactly the sum <span class="math inline">\(\sum_{i : a \leq x_i \leq b} p(x_i)\)</span>, i.e. sum up the probabilities of only those <span class="math inline">\(x_i\)</span> which are between <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>. Now althougth these <span class="math inline">\(p(x_i)\)</span> occur in the expression for <span class="math inline">\(E[X]\)</span>, they do not appear as a sum so we cannot yet convert them into something interesting.</p>
+<p>However, if we allow ourselves an inequality, then we can deduce something interesting. For a fixed <span class="math inline">\(c\)</span> consider the <span class="math inline">\(x_i\)</span> so that <span class="math inline">\(x_i &gt; c\)</span>. Assume that this happens for those <span class="math inline">\(x_i\)</span> where <span class="math inline">\(i \leq k\)</span> for some <span class="math inline">\(k\)</span>. Then the <span class="math inline">\(x_1 p(x_1) + x_2 p(x_2) + \cdots + x_k p(x_k)\)</span> part of <span class="math inline">\(E[X]\)</span> is bigger than <span class="math inline">\(c p(x_1) + c p(x_2) + \cdots + c p(x_k)\)</span>. That is,</p>
+<p><span class="math display">\[x_1 p(x_1) + x_2 p(x_2) + \cdots + x_k p(x_k) \geq c p(x_1) + c p(x_2) + \cdots + c p(x_k)\]</span></p>
+<p>Why is noting this inequality useful? Notice that in the right hand side, the <span class="math inline">\(c\)</span> can be factored out and since the remaining sum of probabilities is only for those <span class="math inline">\(x_i\)</span> such that <span class="math inline">\(x_i \geq c\)</span>, it can be interpeted as <span class="math inline">\(P\{X \geq c\}\)</span>. In other words we may rewrite the above inequality as,</p>
+<p><span class="math display">\[x_1 p(x_1) + x_2 p(x_2) + \cdots + x_k p(x_k) \geq c P\{X \geq c\}\]</span></p>
+<p>What have we observed so far? <em>No matter what the random variable X is</em>, without knowing the precise probabilities, we can infer that a part of the sum appearing in the expectation is definitely bigger than <span class="math inline">\(c P\{X \geq c\}\)</span> <em>no matter what c is</em>. What about the part of the expectation that involves the other <span class="math inline">\(x_i\)</span> (the ones smaller than <span class="math inline">\(k\)</span>)? Well as long as they are all not negative, they help the expectation become even bigger so we can conclude that if all the <span class="math inline">\(x_i\)</span>’s are positive, then since <span class="math inline">\(x_1 p(x_1) + x_2 p(x_2) + \cdots + x_k p(x_k) \geq c P\{X \geq c\}\)</span>, adding the remaining terms of the expectation on the left hand side makes it even bigger to give us Markov’s inequality, <span class="math display">\[E[X] \geq cP\{X \geq c\}\]</span> but we need <span class="math inline">\(X\)</span> to take only non-negative values, which is a common situation.</p>
+<p>To summarize,</p>
+<ol type="1">
+<li>We recalled that sum of probabilities of only those <span class="math inline">\(x_i\)</span> satisfying a criterion is the probability of <span class="math inline">\(X\)</span> satisfying that criterion.</li>
+<li>We examined the expression for <span class="math inline">\(E[X]\)</span> and noticed that there is no scope to sum up probabilities in the expression itself because the <span class="math inline">\(x_i\)</span>’s may be different and so it may not be possible to factor them out.</li>
+<li>However, if we were willing to make do with discovering a weaker relation like an inequality, then there was scope to get factor out a constant and sum probabilities and get a nice interpretation.</li>
+</ol>
+</section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../assignments/2025-03-02-exercise06.html">Exercise sheet 6</a>
+	   /
+	  <a href="../assignments/pdfs/2025-03-02-exercise06.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../assignments/2025-02-27-exercise05.html">Exercise sheet 5</a>
+	   /
+	  <a href="../assignments/pdfs/2025-02-27-exercise05.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+
+    <h2>Recent comments</h2>
+<ul>
+    
+        <li>
+            <a href="../posts/2025-03-24-Markov.html"><i>Markov's inequality</i></a> - 24 March, 2025 (Monday)
+	  
+	  (<a href="../posts/pdfs/2025-03-24-Markov.pdf">PDF file</a>)
+	  
+
+
+        </li>
+    
+        <li>
+            <a href="../posts/2025-03-05-expectation-of-function.html"><i>Expectation of a function of a random variable</i></a> -  5 March, 2025 (Wednesday)
+	  
+	  (<a href="../posts/pdfs/2025-03-05-expectation-of-function.pdf">PDF file</a>)
+	  
+
+
+        </li>
+    
+</ul>
+
+    <p><a href="../posts.html">All comments&hellip;</a></p>
+
+
+
+
+</section>
+</body>
+</html>
