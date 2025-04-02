@@ -2,39 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>MTH102 Probability and Statistics</title>
-        <link>http://sejdm.github.io/mth102</link>
+        <title>MTH406 Theory of Computation</title>
+        <link>http://sejdm.github.io/mth406</link>
         <description><![CDATA[Get exercises and announcements]]></description>
-        <atom:link href="http://sejdm.github.io/mth102/announce/rss.xml" rel="self"
+        <atom:link href="http://sejdm.github.io/mth406/announce/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2025-02-27T12:51:32+5:30</lastBuildDate>
-        <item>
-    <title>2025-02-26-makeup</title>
-    <link>http://sejdm.github.io/mth102/announcements/2025-02-26-makeup.html</link>
-    <description><![CDATA[<div class="announcement"><p>There will be a <strong>makeup lecture</strong> at <strong>3pm</strong> in <span style="color:red"><strong>LH5</strong></span> (Note the <span style="color:red"><strong>change in the room</strong></span>) on <strong>Thursday</strong>, the 26th of February.</p></div> <br /><span class="date">Last modified: 12:51 PM - 27 February, 2025 </span>
-]]></description>
-    <pubDate>Wed, 26 Feb 2025 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth102/announcements/2025-02-26-makeup.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>2025-01-29-quiz</title>
-    <link>http://sejdm.github.io/mth102/announcements/2025-01-29-quiz.html</link>
-    <description><![CDATA[<div class="announcement"><p>There will be a <strong>quiz</strong> in your tutorial room on <strong>Thurdsay</strong>, the 30th of January, 2025</p></div> <br /><span class="date">Last modified: 02:10 AM - 30 January, 2025 </span>
-]]></description>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth102/announcements/2025-01-29-quiz.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>2025-01-21-quiz</title>
-    <link>http://sejdm.github.io/mth102/announcements/2025-01-21-quiz.html</link>
-    <description><![CDATA[<div class="announcement"><p>There will be a <strong>quiz</strong> in your tutorial room on <strong>Thurdsay</strong>, the 23rd of January, 2025</p></div> <br /><span class="date">Last modified: 07:55 PM - 21 January, 2025 </span>
-]]></description>
-    <pubDate>Tue, 21 Jan 2025 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth102/announcements/2025-01-21-quiz.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-
+        <lastBuildDate>Unknown</lastBuildDate>
+        
     </channel>
 </rss>
