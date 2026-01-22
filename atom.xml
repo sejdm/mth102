@@ -1,127 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>MTH102 Probability and Statistics</title>
-    <link href="http://sejdm.github.io/mth102/atom.xml" rel="self" />
-    <link href="http://sejdm.github.io/mth102" />
-    <id>http://sejdm.github.io/mth102/atom.xml</id>
+    <title>MTH303 Set theory and logic</title>
+    <link href="http://sejdm.github.io/mth303/atom.xml" rel="self" />
+    <link href="http://sejdm.github.io/mth303" />
+    <id>http://sejdm.github.io/mth303/atom.xml</id>
     <author>
         <name>Shane D'Mello</name>
         <email>shane@iisermohali.ac.in</email>
     </author>
-    <updated>2025-04-26T21:25:55+5:30</updated>
+    <updated>2026-01-22T16:27:36+5:30</updated>
     <entry>
-    <title>Exercise sheet 10</title>
-    <link href="http://sejdm.github.io/mth102/assignments/2025-04-26-exercise10.html" />
-    <id>http://sejdm.github.io/mth102/assignments/2025-04-26-exercise10.html</id>
-    <published>2025-04-26T00:00:00Z</published>
-    <updated>2025-04-26T21:25:55+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 10 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 9</title>
-    <link href="http://sejdm.github.io/mth102/assignments/2025-04-11-exercise09.html" />
-    <id>http://sejdm.github.io/mth102/assignments/2025-04-11-exercise09.html</id>
-    <published>2025-04-11T00:00:00Z</published>
-    <updated>2025-04-26T20:10:50+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 9 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Expectation of a function of a random variable</title>
-    <link href="http://sejdm.github.io/mth102/posts/2025-03-05-expectation-of-function.html" />
-    <id>http://sejdm.github.io/mth102/posts/2025-03-05-expectation-of-function.html</id>
-    <published>2025-03-05T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
-    <summary type="html"><![CDATA[A comment  has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 8</title>
-    <link href="http://sejdm.github.io/mth102/assignments/2025-04-02-exercise08.html" />
-    <id>http://sejdm.github.io/mth102/assignments/2025-04-02-exercise08.html</id>
-    <published>2025-04-02T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 8 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 7</title>
-    <link href="http://sejdm.github.io/mth102/assignments/2025-03-25-exercises07.html" />
-    <id>http://sejdm.github.io/mth102/assignments/2025-03-25-exercises07.html</id>
-    <published>2025-03-25T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 7 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 6</title>
-    <link href="http://sejdm.github.io/mth102/assignments/2025-03-02-exercise06.html" />
-    <id>http://sejdm.github.io/mth102/assignments/2025-03-02-exercise06.html</id>
-    <published>2025-03-02T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 6 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 5</title>
-    <link href="http://sejdm.github.io/mth102/assignments/2025-02-27-exercise05.html" />
-    <id>http://sejdm.github.io/mth102/assignments/2025-02-27-exercise05.html</id>
-    <published>2025-02-27T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 5 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 4</title>
-    <link href="http://sejdm.github.io/mth102/assignments/2025-02-20-exercise04.html" />
-    <id>http://sejdm.github.io/mth102/assignments/2025-02-20-exercise04.html</id>
-    <published>2025-02-20T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 4 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Announcement</title>
-    <link href="http://sejdm.github.io/mth102/announcements/2025-02-26-makeup.html" />
-    <id>http://sejdm.github.io/mth102/announcements/2025-02-26-makeup.html</id>
-    <published>2025-02-26T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
-    <summary type="html"><![CDATA[<div class="announcement"><p>There will be a <strong>makeup lecture</strong> at <strong>3pm</strong> in <span style="color:red"><strong>LH5</strong></span> (Note the <span style="color:red"><strong>change in the room</strong></span>) on <strong>Thursday</strong>, the 26th of February.</p></div> <br /><span class="date">Last modified: 11:00 PM - 21 April, 2025 </span>
-]]></summary>
-</entry>
-<entry>
-    <title>Announcement</title>
-    <link href="http://sejdm.github.io/mth102/announcements/2025-01-29-quiz.html" />
-    <id>http://sejdm.github.io/mth102/announcements/2025-01-29-quiz.html</id>
-    <published>2025-01-29T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
-    <summary type="html"><![CDATA[<div class="announcement"><p>There will be a <strong>quiz</strong> in your tutorial room on <strong>Thurdsay</strong>, the 30th of January, 2025</p></div> <br /><span class="date">Last modified: 11:00 PM - 21 April, 2025 </span>
-]]></summary>
-</entry>
-<entry>
-    <title>Announcement</title>
-    <link href="http://sejdm.github.io/mth102/announcements/2025-01-21-quiz.html" />
-    <id>http://sejdm.github.io/mth102/announcements/2025-01-21-quiz.html</id>
-    <published>2025-01-21T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
-    <summary type="html"><![CDATA[<div class="announcement"><p>There will be a <strong>quiz</strong> in your tutorial room on <strong>Thurdsay</strong>, the 23rd of January, 2025</p></div> <br /><span class="date">Last modified: 11:00 PM - 21 April, 2025 </span>
-]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 3</title>
-    <link href="http://sejdm.github.io/mth102/assignments/2025-01-29-exercise03.html" />
-    <id>http://sejdm.github.io/mth102/assignments/2025-01-29-exercise03.html</id>
-    <published>2025-01-29T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 3 has been posted.]]></summary>
-</entry>
-<entry>
     <title>Exercise sheet 2</title>
-    <link href="http://sejdm.github.io/mth102/assignments/2025-01-23-exercise02.html" />
-    <id>http://sejdm.github.io/mth102/assignments/2025-01-23-exercise02.html</id>
+    <link href="http://sejdm.github.io/mth303/assignments/2025-01-23-exercise02.html" />
+    <id>http://sejdm.github.io/mth303/assignments/2025-01-23-exercise02.html</id>
     <published>2025-01-23T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
+    <updated>2026-01-22T16:27:36+5:30</updated>
     <summary type="html"><![CDATA[Exercise sheet 2 has been posted.]]></summary>
 </entry>
 <entry>
     <title>Exercise sheet 1</title>
-    <link href="http://sejdm.github.io/mth102/assignments/2025-01-13-exercise01.html" />
-    <id>http://sejdm.github.io/mth102/assignments/2025-01-13-exercise01.html</id>
-    <published>2025-01-13T00:00:00Z</published>
-    <updated>2025-04-21T23:00:30+5:30</updated>
+    <link href="http://sejdm.github.io/mth303/assignments/2026-01-09-exercise01.html" />
+    <id>http://sejdm.github.io/mth303/assignments/2026-01-09-exercise01.html</id>
+    <published>2026-01-09T00:00:00Z</published>
+    <updated>2026-01-16T15:30:47+5:30</updated>
     <summary type="html"><![CDATA[Exercise sheet 1 has been posted.]]></summary>
 </entry>
 
