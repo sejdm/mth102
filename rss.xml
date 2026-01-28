@@ -2,26 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>MTH303 Set theory and logic</title>
-        <link>http://sejdm.github.io/mth303</link>
+        <title>MTH102 Probability and Statistics</title>
+        <link>http://sejdm.github.io/mth102</link>
         <description><![CDATA[Get exercises and announcements]]></description>
-        <atom:link href="http://sejdm.github.io/mth303/rss.xml" rel="self"
+        <atom:link href="http://sejdm.github.io/mth102/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2026-01-22T16:27:36+5:30</lastBuildDate>
+        <lastBuildDate>2026-01-28T13:34:52+5:30</lastBuildDate>
         <item>
+    <title>Exercise sheet 3</title>
+    <link>http://sejdm.github.io/mth102/assignments/2026-01-28-exercise03.html</link>
+    <description><![CDATA[Exercise sheet 3 has been posted.]]></description>
+    <pubDate>Wed, 28 Jan 2026 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth102/assignments/2026-01-28-exercise03.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Exercise sheet 2</title>
-    <link>http://sejdm.github.io/mth303/assignments/2025-01-23-exercise02.html</link>
+    <link>http://sejdm.github.io/mth102/assignments/2025-01-23-exercise02.html</link>
     <description><![CDATA[Exercise sheet 2 has been posted.]]></description>
     <pubDate>Thu, 23 Jan 2025 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth303/assignments/2025-01-23-exercise02.html</guid>
+    <guid>http://sejdm.github.io/mth102/assignments/2025-01-23-exercise02.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 <item>
     <title>Exercise sheet 1</title>
-    <link>http://sejdm.github.io/mth303/assignments/2026-01-09-exercise01.html</link>
+    <link>http://sejdm.github.io/mth102/assignments/2026-01-09-exercise01.html</link>
     <description><![CDATA[Exercise sheet 1 has been posted.]]></description>
     <pubDate>Fri, 09 Jan 2026 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth303/assignments/2026-01-09-exercise01.html</guid>
+    <guid>http://sejdm.github.io/mth102/assignments/2026-01-09-exercise01.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 
