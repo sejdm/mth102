@@ -7,8 +7,16 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth102/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2026-03-25T09:45:50+5:30</lastBuildDate>
+        <lastBuildDate>2026-03-27T01:56:00+5:30</lastBuildDate>
         <item>
+    <title>Exercise sheet 7</title>
+    <link>http://sejdm.github.io/mth102/assignments/2026-03-27-exercise07.html</link>
+    <description><![CDATA[Exercise sheet 7 has been posted.]]></description>
+    <pubDate>Fri, 27 Mar 2026 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth102/assignments/2026-03-27-exercise07.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Announcement</title>
     <link>http://sejdm.github.io/mth102/announcements/2026-03-26-online-lecture.html</link>
     <description><![CDATA[<div class="announcement"><p>Please use <a href="http://meet.google.com/hvw-nmhd-iaa">this google meet link</a> for the online lecture today.</p></div> <br /><span class="date">Last modified: 09:45 AM - 25 March, 2026 </span>
